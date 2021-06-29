@@ -78,42 +78,46 @@ You can also include a single record object at the top level. Click here to show
 
  
 CODE
-```var Airtable = require('airtable');
-var base = new Airtable({apiKey: 'keytqKiIOeeFkHG8K'}).base('appBSQnq6pOwxWbIv');
-
-base('Trips').update([
-  {
-    "id": "recS9HW9Mb7b0noUc",
-    "fields": {
-      "Where": "New York City 1",
-      "Attractions": "Empire State Building",
-      "Needs": "Good shoes, good camera, good weather",
-      "Ratings": "3",
-      "Comments": "Can be amazing with great company. Great view of the city but wont stay for too long"
-    }
-  },
-  {
-    "id": "rec7vi4JwoTHngBhd",
-    "fields": {
-      "Where": "New Jersey",
-      "Attractions": "Dream Mall",
-      "Needs": "Good shoes, budget, and desire for adventure",
-      "Ratings": "3",
-      "Comments": "Bring a lot of money and bring comfortable shoes. Good place for adventures with family"
-    }
-  }
-], function(err, records) {
-  if (err) {
-    console.error(err);
-    return;
-  }
-  records.forEach(function(record) {
-    console.log(record.get('Where'));
-  });
-});
-OUTPUT
-"New York City 1"
-"New Jersey"```
+```json
+{
+    "records": [
+        {
+            "id": "recS9HW9Mb7b0noUc",
+            "fields": {
+                "attractions": "Empire State Building",
+                "where": "New York City 1",
+                "ratings": 3,
+                "needs": "Good shoes, good camera, good weather",
+                "comments": "Can be amazing with great company. Great view of the city but wont stay for too long"
+            },
+            "createdTime": "2021-06-28T00:13:06.000Z"
+        },
+        {
+            "id": "rec7vi4JwoTHngBhd",
+            "fields": {
+                "attractions": "Dream Mall",
+                "where": "New Jersey",
+                "ratings": 3,
+                "needs": "Good shoes, budget, and desire for adventure",
+                "comments": "Bring a lot of money and bring comfortable shoes. Good place for adventures with family"
+            },
+            "createdTime": "2021-06-28T00:13:06.000Z"
+        },
+        {
+            "id": "recIhntayBr78XoNa",
+            "fields": {
+                "attractions": "Holiday World",
+                "where": "Indiana",
+                "ratings": 2,
+                "needs": "Car, towel, comfortable shows, money",
+                "comments": "Good small park for family. You will go on the rides more than once because the park is small."
+            },
+            "createdTime": "2021-06-28T00:13:06.000Z"
+        }
+    ],
+    "offset": "recIhntayBr78XoNa"
+}
+```
 
 ### MVP/PostMVP
 
