@@ -9,11 +9,25 @@ Get Trippin'
 This app will be able to help you plan yur next adventure within the U.S. User will be able to look at some already created trip ideas, create their own trip ideas for others to see, and lastly edit already trip ideas to make them better with reviews. 
 
 ## Wireframes
+<img width="857" alt="Screen Shot 2021-06-28 at 8 55 20 PM" src="https://user-images.githubusercontent.com/81048858/123720991-58490e00-d853-11eb-8ef7-e67b093b3372.png">
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
+<img width="850" alt="Screen Shot 2021-06-28 at 8 55 33 PM" src="https://user-images.githubusercontent.com/81048858/123721071-7ca4ea80-d853-11eb-8dc5-a5ce0a143ae3.png">
+
+<img width="854" alt="Screen Shot 2021-06-28 at 8 55 42 PM" src="https://user-images.githubusercontent.com/81048858/123721121-9cd4a980-d853-11eb-80b7-313d1e5b3842.png">
+
+
+<img width="737" alt="Screen Shot 2021-06-28 at 8 55 58 PM" src="https://user-images.githubusercontent.com/81048858/123721174-bd9cff00-d853-11eb-95f9-a394bc8a86a4.png">
+
+
+<img width="706" alt="Screen Shot 2021-06-28 at 8 56 07 PM" src="https://user-images.githubusercontent.com/81048858/123721229-d9a0a080-d853-11eb-80f8-ec57d341a745.png">
+
+
+<img width="697" alt="Screen Shot 2021-06-28 at 8 56 14 PM" src="https://user-images.githubusercontent.com/81048858/123721286-fc32b980-d853-11eb-8181-539aaa9ecd77.png">
+
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+<img width="854" alt="Screen Shot 2021-06-28 at 9 14 27 PM" src="https://user-images.githubusercontent.com/81048858/123722206-e1614480-d855-11eb-967a-164e405d6e5c.png">
 
 ## API and Data Sample
 
@@ -172,4 +186,7 @@ _Use media query desktop and mobile
 -Become more skilled with React and understanding the concepts in greater detail
 
 ### Threats:
+<<<<<<< HEAD
 - JSX will prove to be tough if I dont start it first. CSS needs to be started right after JSX so i have time. CSS can lose me as I always spend too much time on it.
+=======
+>>>>>>> bb109b9b41165f0d6c68ce81ccaf9cafe5f1d2da
