@@ -9,7 +9,7 @@ Get Trippin'
 This app will be able to help you plan yur next adventure within the U.S. User will be able to look at some already created trip ideas, create their own trip ideas for others to see, and lastly edit already trip ideas to make them better with reviews. 
 
 ## Wireframes
-
+<img width="857" alt="Screen Shot 2021-06-28 at 8 55 20 PM" src="https://user-images.githubusercontent.com/81048858/123720991-58490e00-d853-11eb-8ef7-e67b093b3372.png">
 
 
 ## Component Hierarchy
