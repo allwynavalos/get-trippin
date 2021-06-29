@@ -14,6 +14,8 @@ This app will be able to help you plan yur next adventure within the U.S. User w
 
 <img width="850" alt="Screen Shot 2021-06-28 at 8 55 33 PM" src="https://user-images.githubusercontent.com/81048858/123721071-7ca4ea80-d853-11eb-8dc5-a5ce0a143ae3.png">
 
+<img width="854" alt="Screen Shot 2021-06-28 at 8 55 42 PM" src="https://user-images.githubusercontent.com/81048858/123721121-9cd4a980-d853-11eb-80b7-313d1e5b3842.png">
+
 
 ## Component Hierarchy
 Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
