@@ -6,7 +6,7 @@ Get Trippin'
 
 ## Project Description
 
-This app will be able to help you plan yur next adventure within the U.S. User will be able to look at some already created trip ideas, create their own trip ideas for others to see, and lastly edit already trip ideas to make them better with reviews. 
+This app will be able to help you plan your next adventure within the U.S. User will be able to look at some already created trip ideas, create their own trip ideas for others to see, and lastly edit already trip ideas to make them better with reviews. 
 
 ## Wireframes
 <img width="857" alt="Screen Shot 2021-06-28 at 8 55 20 PM" src="https://user-images.githubusercontent.com/81048858/123720991-58490e00-d853-11eb-8ef7-e67b093b3372.png">
@@ -186,7 +186,5 @@ _Use media query desktop and mobile
 -Become more skilled with React and understanding the concepts in greater detail
 
 ### Threats:
-<<<<<<< HEAD
 - JSX will prove to be tough if I dont start it first. CSS needs to be started right after JSX so i have time. CSS can lose me as I always spend too much time on it.
-=======
->>>>>>> bb109b9b41165f0d6c68ce81ccaf9cafe5f1d2da
+
