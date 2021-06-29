@@ -12,7 +12,7 @@ function Form(props) {
   const history = (useHistory);
   const params = useParams();
   useEffect(() =>{
-    if(params.id && props.trips.legnth > 0) {
+    if(params.id && props.trips.length > 0) {
       const tripToEdit = props.trips.find((trip) => trip.id === params.id);
       if(tripToEdit) {
         setWhere(tripToEdit.fields.where);
@@ -45,7 +45,7 @@ function Form(props) {
 
     
     history.push("/")
-    },1500);
+    },1400);
   }
   return (
     <form onSubmit = {handleSubmit}>
