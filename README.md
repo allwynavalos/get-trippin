@@ -10,7 +10,7 @@ This app will be able to help you plan yur next adventure within the U.S. User w
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+<img width="872" alt="P2 home web" src="https://user-images.githubusercontent.com/81048858/123719804-75c8a880-d850-11eb-84c8-f42e29a21014.png">
 
 ## Component Hierarchy
 Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
