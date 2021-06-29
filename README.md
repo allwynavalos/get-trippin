@@ -163,15 +163,18 @@ _Use media query desktop and mobile
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Structuring and psuedo code| H | 4hrs| 3.5hrs |-|
-| JSX code | H | 4hrs| 3.5hrs |-|
-| Working with API | H | 4hrs| 3.5hrs |-|
-| Adding Form Create | H | 4hrs| 3.5hrs |-|
-| Adding Form Edit | H | 4hrs| 3.5hrs |-|
-| CSS | H | 4hrs| 3.5hrs |-|
-| Media Query| H | 4hrs| 3.5hrs |-|
-| Debugging | H | 4hrs| 3.5hrs |-|
-| PMVP | H | 4hrs| 3.5hrs |-|
+| Structuring and psuedo code| H | 3hrs| 3.5hrs |-|
+| JSX code | H | 3hrs| 3hrs |-|
+| Working with API | H | 3hrs| 3hrs |-|
+| Adding Form Create | H | 3hrs| 3hrs |-|
+| Adding Form Edit | H | 3hrs| 3hrs |-|
+| Making sure GET work| H | 3hrs| 3hrs |-|
+| Making sure POST works | H | 3hrs| 3hrs |-|
+| Making Airtable organized and functional/new and old data displayed | H | 3hrs| 3hrs |-|
+| CSS | H | 3hrs| 3hrs |-|
+| Media Query| H | 3hrs| 3hrs |-|
+| Debugging | H | 3hrs| 3hrs |-|
+| PMVP | H | 3hrs| 3.5hrs |-|
 
 
 ## SWOT Analysis
