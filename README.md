@@ -78,7 +78,7 @@ You can also include a single record object at the top level. Click here to show
 
  
 CODE
-var Airtable = require('airtable');
+```var Airtable = require('airtable');
 var base = new Airtable({apiKey: 'keytqKiIOeeFkHG8K'}).base('appBSQnq6pOwxWbIv');
 
 base('Trips').update([
@@ -113,7 +113,7 @@ base('Trips').update([
 });
 OUTPUT
 "New York City 1"
-"New Jersey"
+"New Jersey"```
 
 ### MVP/PostMVP
 
