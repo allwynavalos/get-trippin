@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import {useHistory, useParams} from "react-router-dom";
 import {baseURL, config} from "../services";
 
+
 function Form(props) {
   const[where, setWhere] = useState('');
   const[attraction, setAttraction] = useState('');
@@ -48,6 +49,7 @@ function Form(props) {
     },1400);
   }
   return (
+    
     <form onSubmit = {handleSubmit}>
       <label htmlFor="where">Where:</label>
       <input
@@ -90,7 +92,7 @@ function Form(props) {
       onChange={(e) => setComment(e.target.value)}
       value={comment}
       />
-      <button type="submit"></button>
+      <button className="formBtn" type="submit">Submit</button>
     </form>
   )
 }

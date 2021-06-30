@@ -13,12 +13,13 @@ function Trip(props) {
   }
 
   return(
+    
     <article>
       <h3>{where}</h3>
       <h3>{attraction}</h3>
       <h3>{need}</h3>
-      <Rating rating={rating} />
       <h3>{comment}</h3>
+      <Rating rating={rating} />
       <button onClick={deleteTrip}>Delete Trip!</button>
       <Link to={`/edit/${props.trip.id}`}>
         <button>Edit Trip!</button>

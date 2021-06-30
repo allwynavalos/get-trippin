@@ -5,7 +5,8 @@ import Form from "./components/Form";
 import Navbar from "./components/Navbar";
 import Trip from "./components/Trip";
 import Footer from "./components/Footer";
-// import Home from "./components/Home";
+import Home from "./components/Home";
+// import  from "./components/Footer";
 import { baseURL, config } from "./services";
 import './App.css';
 
@@ -23,6 +24,9 @@ function App() {
     <div className="App">
      <Navbar />
      <Route exact path="/">
+     <Home /> 
+     </Route>
+     <Route path="/trip">
      <main>
      {trips.map((trip) =>(
        <Trip key={trip.id} trip={trip} setToggleFetch={setToggleFetch} />
