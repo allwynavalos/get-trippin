@@ -1,0 +1,16 @@
+nav {
+  display:flex;
+  justify-content: left;
+  text-decoration: blink;
+  padding: 4px;
+  border-bottom: 1px solid black;
+  background:black;
+  color: white;
+ 
+}
+
+.navLink {
+  color: white;
+  padding-left: 40px;
+  text-decoration: none;
+}

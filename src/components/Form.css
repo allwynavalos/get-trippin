@@ -1,0 +1,17 @@
+form {
+  display:flex;
+  flex-direction: column;
+  padding: 12px;
+  padding-top: 300px;
+  margin: 0 auto;
+  width: 60vw;
+  height: 100vh;
+  text-align:center;
+}
+
+
+.formBtn{
+  margin: 10px;
+  background:white;
+
+ }

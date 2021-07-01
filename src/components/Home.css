@@ -1,0 +1,48 @@
+.home {
+  background-image: url("https://cdn3.vectorstock.com/i/1000x1000/94/22/airplane-flat-icon-on-black-background-black-style-vector-25959422.jpg");
+  color:#878787;
+ height:100vh;
+ display: flex;
+ justify-content: center;
+ /* padding-top: 100px; */
+}
+
+
+
+/* .getTitle{
+margin-bottom: 5%;
+padding-top:25%;
+/* padding-left: 30%; */
+/* margin-left: 50%;
+font-size:300%;
+  
+} */
+
+/* .trippinTitle{
+  margin-bottom: 5%;
+  padding-top:25%;
+  padding-left: 10%;
+  font-size: 300%;
+  
+} */ */
+
+.homeBtn{
+margin-right: 80%;
+ margin-top: 50%;
+
+}
+
+#newBtn {
+  margin: 40px;
+}
+
+#containerHome {
+  margin-top: 35%;
+}
+
+#title1 {
+padding-bottom: -10px;
+
+}
+
+
