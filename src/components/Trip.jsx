@@ -2,6 +2,7 @@ import {Link} from "react-router-dom";
 import axios from "axios";
 import Rating from "./Rating";
 import {baseURL, config} from "../services";
+import './Trip.css';
 
 function Trip(props) {
   const {where, attraction, need, rating, comment} = props.trip.fields;

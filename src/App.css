@@ -1,15 +1,12 @@
-.App {
-  background-color:#0e0e0e;
-  color:#878787;
-  overflow-x:hidden;
-  overflow-y:center;
-
+.App{
+/* background-image: url("https://images.unsplash.com/photo-1541422348463-9bc715520974?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9ub2Nocm9tZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"); */
+background-image: url("https://cdn3.vectorstock.com/i/1000x1000/94/22/airplane-flat-icon-on-black-background-black-style-vector-25959422.jpg");
+background-attachment: scroll;
+  
 }
 
-article {
-  background:rgb(0, 0, 0);
-  opacity: 0.8;
-}
+
+
 
 button {
   background: white;
@@ -21,9 +18,8 @@ button {
   
 }
 
-article {
-  text-align: center;
-}
+
+
 
 
 
