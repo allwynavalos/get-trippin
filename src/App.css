@@ -1,7 +1,10 @@
 .App{
 /* background-image: url("https://images.unsplash.com/photo-1541422348463-9bc715520974?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9ub2Nocm9tZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"); */
-background-image: url("https://cdn3.vectorstock.com/i/1000x1000/94/22/airplane-flat-icon-on-black-background-black-style-vector-25959422.jpg");
-background-attachment: scroll;
+background-image: url("https://thumbs.dreamstime.com/b/sketch-plane-taking-off-black-background-linear-75625614.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
   
 }
 

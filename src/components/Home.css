@@ -1,9 +1,13 @@
 .home {
-  background-image: url("https://cdn3.vectorstock.com/i/1000x1000/94/22/airplane-flat-icon-on-black-background-black-style-vector-25959422.jpg");
+  background-image: url("https://images.unsplash.com/photo-1503198515498-d0bd9ed16902?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #878787;
   height: 100vh;
   display: flex;
   justify-content: center;
+  opacity: 0.76;
 }
 
 .container {

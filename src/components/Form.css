@@ -7,11 +7,16 @@ form {
   width: 60vw;
   height: 100vh;
   text-align:center;
+  background: black;
+  opacity: 0.67;
+  color: white;
 }
 
 
 .formBtn{
   margin: 10px;
   background:white;
+  opacity: 6;
+  border-style: dashed;
 
  }

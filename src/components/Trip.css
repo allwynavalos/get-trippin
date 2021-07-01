@@ -1,6 +1,7 @@
 .Trip {
-  background-image: url("https://images.unsplash.com/photo-1541422348463-9bc715520974?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9ub2Nocm9tZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
-  height:100vh;
+  background: url("https://images.unsplash.com/photo-1541422348463-9bc715520974?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9ub2Nocm9tZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80") ;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 article {
@@ -8,7 +9,7 @@ article {
   opacity: 0.8;
   text-align: center;
   color:white;
-  background: black;
+  background:rgb(37, 34, 34);
 }
 
 
