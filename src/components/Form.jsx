@@ -11,7 +11,7 @@ function Form(props) {
   const[need, setNeed] = useState ('');
   const[rating, setRating] = useState (1);
   const[comment, setComment] = useState('');
-  const history = (useHistory);
+  const history = useHistory();
   const params = useParams();
   useEffect(() =>{
     if(params.id && props.trips.length > 0) {
@@ -46,8 +46,8 @@ function Form(props) {
     setTimeout(() =>{
 
     
-    history.push("/")
-    },1400);
+    history.push("/trip")
+    },1000);
   }
   return (
     

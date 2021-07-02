@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import Trip from "./components/Trip";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-// import  from "./components/Footer";
 import { baseURL, config } from "./services";
 import './App.css';
 
@@ -39,6 +38,7 @@ function App() {
      <Route path="/edit/:id">
        <Form trips={trips} setToggleFetch={setToggleFetch} />
      </Route>
+     <Footer/>
     </div>
   );
 }

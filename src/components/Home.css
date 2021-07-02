@@ -54,14 +54,20 @@
   #tripBtn {
     margin-left:15px;
     font-size: 20px;
-    padding: 14px 40px;
+   
     margin-top: 30px;
+    
 
   }
   
   #newBtn {
-    padding: 14px 40px;
+   
     font-size: 20px;
+    
+  }
+
+  .title {
+    padding-top: 10vh;
   }
   
 }
