@@ -6,6 +6,7 @@ import './Form.css';
 
 
 function Form(props) {
+  const[flag, setFlag] = useEffect()
   const[where, setWhere] = useState('');
   const[attraction, setAttraction] = useState('');
   const[need, setNeed] = useState ('');
@@ -17,6 +18,7 @@ function Form(props) {
     if(params.id && props.trips.length > 0) {
       const tripToEdit = props.trips.find((trip) => trip.id === params.id);
       if(tripToEdit) {
+        setFlag(tripToEdit.fields.flag);
         setWhere(tripToEdit.fields.where);
         setAttraction(tripToEdit.fields.attraction);
         setNeed(tripToEdit.fields.need);
@@ -28,6 +30,7 @@ function Form(props) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newTrip = {
+      flag,
       where,
       attraction,
       need,
@@ -58,6 +61,14 @@ function Form(props) {
       type="text"
       onChange={(e) => setWhere(e.target.value)}
       value={where}
+      />
+
+<label htmlFor="flag">Flag:</label>
+      <input
+      id="flag"
+      type="text"
+      onChange={(e) => setFlag(e.target.value)}
+      value={flag}
       />
       
       <label htmlFor="attraction">Attraction:</label>

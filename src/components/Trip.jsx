@@ -5,7 +5,7 @@ import {baseURL, config} from "../services";
 import './Trip.css';
 
 function Trip(props) {
-  const {where, attraction, need, rating, comment, image} = props.trip.fields;
+  const {where, attraction, need, rating, comment, flag} = props.trip.fields;
 
   const deleteTrip = async () => {
     const tripURL = `${baseURL}/${props.trip.id}`;
@@ -16,7 +16,7 @@ function Trip(props) {
   return(
    
     <article>
-      <img src={image} alt="flags"></img>
+      <img src={flag} alt="flags"></img>
       <h3>Where: {where}</h3>
       <h3>Attraction: {attraction}</h3>
       <h3>Need: {need}</h3>
