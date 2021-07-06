@@ -16,11 +16,11 @@ function Trip(props) {
   return(
    
     <article>
-      <img src={image}></img>
-      <h3>{where}</h3>
-      <h3>{attraction}</h3>
-      <h3>{need}</h3>
-      <h3>{comment}</h3>
+      <img src={image} alt="flags"></img>
+      <h3>Where: {where}</h3>
+      <h3>Attraction: {attraction}</h3>
+      <h3>Need: {need}</h3>
+      <h3>Comments: {comment}</h3>
       <Rating rating={rating} />
       <button className="deleteBtn" onClick={deleteTrip}>Delete Trip!</button>
       <Link to={`/edit/${props.trip.id}`}>
