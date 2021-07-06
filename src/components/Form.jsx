@@ -6,7 +6,7 @@ import './Form.css';
 
 
 function Form(props) {
-  const[flag, setFlag] = useEffect()
+  const[flag, setFlag] = useState('');
   const[where, setWhere] = useState('');
   const[attraction, setAttraction] = useState('');
   const[need, setNeed] = useState ('');
