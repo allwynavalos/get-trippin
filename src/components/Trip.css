@@ -9,6 +9,8 @@ article {
   text-align: center;
   color:white;
   background:rgb(37, 34, 34);
+  padding-bottom: 5vh;
+  
 }
 
 
@@ -26,3 +28,8 @@ button {
   margin-right: 40px;
 }
 
+
+img{
+  width: 20vh;
+  padding-top: 10vh;
+}

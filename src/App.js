@@ -38,7 +38,10 @@ function App() {
      <Route path="/edit/:id">
        <Form trips={trips} setToggleFetch={setToggleFetch} />
      </Route>
-     <Footer/>
+     <Route>
+     <Footer />
+     </Route>
+    
     </div>
   );
 }

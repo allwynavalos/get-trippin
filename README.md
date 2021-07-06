@@ -143,6 +143,7 @@ _Use media query desktop and mobile
 
 - Add average rating scale
 - Favorite page
+- add flags of the states
 
 ## Project Schedule
 

@@ -40,15 +40,23 @@
   padding-bottom: 30px;
 }
 
+#tripBtn:hover {
+  background-color: rgb(177, 150, 150);
+}
+
 #newBtn {
   padding: 14px 40px;
   font-size: 20px;
   padding-bottom: 30px;
 }
 
+#newBtn:hover {
+  background-color: rgb(177, 150, 150);
+}
 
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 760px) {
 
   
   #tripBtn {
