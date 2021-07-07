@@ -55,6 +55,15 @@ function Form(props) {
   return (
     
     <form onSubmit = {handleSubmit}>
+      <label htmlFor="flag">Flag: <i>(paste URL of flag here)</i></label>
+            <input
+            id="flag"
+            type="text"
+            onChange={(e) => setFlag(e.target.value)}
+            value={flag}
+            />
+
+            
       <label htmlFor="where">Where:</label>
       <input
       id="where"
@@ -63,13 +72,6 @@ function Form(props) {
       value={where}
       />
 
-<label htmlFor="flag">Flag: <i>(paste URL of flag here)</i></label>
-      <input
-      id="flag"
-      type="text"
-      onChange={(e) => setFlag(e.target.value)}
-      value={flag}
-      />
       
       <label htmlFor="attraction">Attraction:</label>
       <input
