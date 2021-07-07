@@ -25,9 +25,18 @@ button {
   border-style: dashed;
 }
 
+
+
+
 .deleteBtn {
   margin-right: 40px;
 }
+
+button:hover {
+  background-color: rgb(177, 150, 150);
+}
+
+
 
 
 img{
