@@ -7,17 +7,15 @@ background-size: cover;
 background-position: center;
   
 }
-.footerName {
-  position: fixed;
-  color: white;
-  padding-top: 10vh;
-  
 
-  
+
+.footerName {
+position: fixed;
+color: red;
+font-size: 10px;
+
 
 }
-
-
 
 
 
@@ -30,10 +28,6 @@ button {
   
   
 }
-
-
-
-
 
 
 

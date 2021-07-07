@@ -119,14 +119,12 @@ CODE
 }
 ```
 
-### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
 -create-react-app, make it interactive
 -Use React Router Dom installed by NPM
--Have minimum 6 rendered components
+-Render multiple components
 -organize React file structure
 -Axios to retrieve data from Airtable, and GET that data in components 
 -Axios to POST new data on Airtable

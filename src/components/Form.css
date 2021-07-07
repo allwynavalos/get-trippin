@@ -10,6 +10,7 @@ form {
   opacity: 0.8;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 }
 
 
@@ -22,4 +23,8 @@ form {
   height: 6vh;
   margin-left: 115px;
 
+ }
+
+ i {
+   color:yellow;
  }

@@ -63,7 +63,7 @@ function Form(props) {
       value={where}
       />
 
-<label htmlFor="flag">Flag:</label>
+<label htmlFor="flag">Flag: <i>(paste URL of flag here)</i></label>
       <input
       id="flag"
       type="text"
